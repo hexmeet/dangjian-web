@@ -1,0 +1,66 @@
+.joinConfPage {
+    height: 100%;
+}
+
+.joinConfPage form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 8%;
+    height: 100%;
+}
+
+.joinConfPage .number {
+    width: 65%;
+    padding: 18px 0;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid rgba(255,255,255,0.4);
+    border-radius: 3px;
+    position: relative;
+}
+
+.joinConfPage .errorInfo {
+    font-size: 16px;
+    color: rgb(235,0,1);
+    line-height: 28px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.joinConfPage .joinConfBtn {
+   width: 18%;
+   line-height: 40px;
+   margin-top: 80px;
+   font-size: 18px;
+   color: #fff;
+   text-align: center;
+   background-color: rgb(235,0,1);
+   border-radius: 3px;
+   cursor: pointer;
+   position: relative;
+}
+
+.joinConfPage .number:focus,
+.joinConfPage .joinConfBtn:focus {
+    box-shadow: 0 0 5px 5px rgba(255,255,255,0.4);
+    transform: scale(1.05);
+    z-index: 99;
+}
+
+
+.cordova .joinConfPage .number {
+    padding: 10px 0;
+    font-size: 14px;
+    line-height: 18px;
+}
+.cordova .joinConfPage .errorInfo {
+    font-size: 14px;
+}
+.cordova .joinConfPage .joinConfBtn {
+    width: 24%;
+    margin-top: 50px;
+    font-size: 16px;
+}
