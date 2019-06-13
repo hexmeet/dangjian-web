@@ -1,0 +1,120 @@
+.confList {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.confList ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.confList .conf-item{
+    color: #333;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.confList .conf-item:hover,
+.confList .conf-item:focus {
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+    transform: scale(1.05);
+    z-index: 99;
+}
+
+.confList .conf-item:hover .conf,
+.confList .conf-item:hover .joinConf,
+.confList .conf-item:focus .conf,
+.confList .conf-item:focus .joinConf {
+    background-color: rgba(255,255,255,0.9);
+}
+
+.confList .conf {
+    flex: 1;
+    border-radius: 5px 0 0 5px;
+    padding: 1.5% 20px;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.confList .name {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.confList .desc span {
+    margin-right: 30px;
+}
+
+.confList .desc span:last-child {
+    margin-right: 0;
+}
+
+.confList .joinConf {
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240,65,55);
+    margin-left: 2px;
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.confList .enterDialing {
+    padding: 10px;
+    color: rgb(200,65,55);
+    cursor: pointer;
+    background-color: transparent;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.confList .enterDialing:hover,
+.confList .enterDialing:focus,
+.confList .enterDialing.active {
+     box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+     background-color: rgba(255,255,255,0.9);
+     border-radius: 3px;
+}
+
+.confList .dial {
+    display: inline-block;
+    width: 14px;
+    margin-left: 6px;
+}
+
+
+.cordova .confList {
+    margin-top: 0px;
+    font-size: 12px;
+}
+.cordova .confList ul {
+    width: 88%;
+}
+.cordova .confList .conf-item {
+    margin-top: 6px;
+}
+.cordova .confList .conf {
+    padding: 6px 10px;
+}
+.cordova .confList .name {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.cordova .confList .desc span {
+    margin-right: 5px;
+}
+.cordova .confList .joinConf {
+    width: 68px;
+}
+.cordova .confList .enterDialing {
+    padding: 5px;
+    bottom: 10px;
+    font-size: 14px;
+}

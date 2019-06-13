@@ -1,0 +1,54 @@
+.setting {
+    width: 60%;
+    margin: 6% auto 0;
+}
+
+.setting ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.setting li {
+    display: flex;
+    flex-basis: 44%;
+}
+
+.setting .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(255,255,255,0.6);
+    position: relative;
+}
+
+.setting .content:hover,
+.setting .content:focus {
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.15);
+    background-color: rgba(255,255,255,0.9);
+    transform: scale(1.05);
+    z-index: 99;
+}
+
+.setting span {
+    align-self: flex-start;
+    display: inline-block;
+    color: #333;
+    font-size: 20px;
+    padding: 4% 0 6% 35px;
+}
+
+.setting img {
+    display: inline-block;
+    width: 60%;
+}
+
+
+.cordova .setting {
+    width: 50%;
+}
+.cordova .setting span {
+    font-size: 14px;
+    padding: 5px 0 8px 20px;
+}

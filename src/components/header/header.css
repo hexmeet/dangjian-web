@@ -1,0 +1,50 @@
+.header {
+   color: rgba(255,255,255,0.8);
+   font-size: 20px;
+   line-height: 22px;
+   padding: 1.5% 3%;
+}
+
+.header li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header .url {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    color: rgba(255,255,255,0.8);
+}
+
+.header .url.active {
+    color: rgb(240,65,55);
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.header .url:hover,
+.header .url:focus {
+    color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px 5px rgba(255,255,255,0.15);
+    background-color: rgba(255,255,255,0.6);
+    z-index: 99;
+    border-radius: 3px;
+}
+
+.header .url.activeCls {
+    color: rgb(240,65,55);
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+
+.cordova .header {
+    font-size: 14px;
+}
+.cordova .header li {
+    margin-left: 4px;
+}
+.cordova .header .url {
+    padding: 3px 5px;
+}
